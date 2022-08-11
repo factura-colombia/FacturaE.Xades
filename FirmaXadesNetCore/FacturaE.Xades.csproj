@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>FacturaE.Xades</PackageId>
+		<Version>3.0.0</Version>
+		<Authors>Verdun Labs / Mauricio David Obando</Authors>
+		<Company>TelviSoft CR / Innapsis Appflow</Company>
+		<Description>
+			Fork de FirmaXadesNetCore de Verdun Labs TelviSoft CR para .net core 3.x revisada en CO
+		</Description>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="BouncyCastle.NetCore" Version="1.8.8" />
+		<PackageReference Include="System.Security.Cryptography.Xml" Version="4.7.0" />
+	</ItemGroup>
+
+
+</Project>
